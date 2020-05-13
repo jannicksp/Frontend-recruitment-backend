@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_rows_technologies",
+  "info": {
+    "name": "Technology",
+    "icon": "server"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}

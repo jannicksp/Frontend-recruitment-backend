@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_rows_jobs",
+  "info": {
+    "name": "Jobs",
+    "icon": "glasses"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}

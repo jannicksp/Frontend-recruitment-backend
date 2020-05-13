@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_rows_minitests",
+  "info": {
+    "name": "Minitest",
+    "icon": "exchange-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}

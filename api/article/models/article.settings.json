@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "articles",
+  "info": {
+    "name": "article"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "MetaTitle": {
+      "type": "string",
+      "required": true
+    },
+    "MetaImage": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "PublishedAt": {
+      "type": "date",
+      "required": true
+    },
+    "Dynamic": {
+      "type": "dynamiczone",
+      "components": [
+        "rows.page-header",
+        "rows.stack",
+        "rows.technology",
+        "rows.culture",
+        "rows.jobs",
+        "rows.minitest"
+      ]
+    },
+    "MetaDescription": {
+      "type": "text",
+      "required": true,
+      "maxLength": 160
+    },
+    "PageTitle": {
+      "type": "string",
+      "private": true,
+      "required": true,
+      "unique": true
+    }
+  }
+}

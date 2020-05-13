@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_rows_culture",
+  "info": {
+    "name": "Culture",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}
