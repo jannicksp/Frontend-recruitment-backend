@@ -1,1 +1,1 @@
-web: yarn develop
+web: node index.js
