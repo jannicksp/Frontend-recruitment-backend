@@ -2,10 +2,9 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
-      "connector": "strapi-connector-bookshelf",
+      "connector": "bookshelf",
       "settings": {
         "client": "postgres",
-        "uri": "${process.env.DATABASE_URI || ''}",
         "host": "${process.env.DATABASE_HOST}",
         "port": "${process.env.DATABASE_PORT}",
         "database": "${process.env.DATABASE_NAME}",
